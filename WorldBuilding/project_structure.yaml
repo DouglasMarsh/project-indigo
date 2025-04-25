@@ -1,0 +1,56 @@
+# Project Structure Manifest (Persistent Memory Anchor)
+
+project_name: Worldbuilding
+version: 1.0
+load_always: true
+
+structure:
+  core:
+    - CODEX.md
+    - project_guidelines.md
+    - README.md
+  factions:
+    - EXOS.md
+    - ONS.md
+    - UOWC.md
+    - Terra Prima.md
+    - PMFs.md
+    - Tech Cults.md
+    - _index.md
+    - overview.md
+  tech:
+    - Propulsion.md
+    - Weapons.md
+    - Defensive_Systems.md
+    - Gravitics.md
+    - _index.md
+  timeline:
+    - Orbital_Era.md
+    - Precursor_Era.md
+    - GLSS_Era.md
+    - _index.md
+    - overview.md
+  narratives:
+    - red_silence.md
+    - residuals.md
+  real_data:
+    - xhip_catalog.tsv
+    - luminous_objects_consolidated.csv
+  scripts:
+    - data/nearest_100_stars.csv
+    - data/simbad_enrichment.csv
+    - simbad_query_nearest_100.py
+
+memory_blocks:
+  - GLSS theoretical rules and classifications
+  - Precursor ruins discovery at Hygiea
+  - Gravitics derived from Tesla-LeSaut hybrid theory
+  - Climate collapse as orbital economic catalyst
+  - UOWC labor movement and Pallas Thermo incident
+  - Cults and PMFs rise after industrial and ideological crisis
+  - Canonical timeline split into: Orbital, Precursor, GLSS Eras
+
+backup_strategy:
+  archive_name: Worldbuilding_Project_Clean.zip
+  includes: all active .md files + real_data + scripts
+  version_control: external optional (Git, manual ZIPs)

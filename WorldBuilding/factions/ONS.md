@@ -2,66 +2,61 @@
 
 ## Overview
 
-The **Order of the Nine Sparks** is a mystic-scientific sect that emerged after the public confirmation of precursor ruins and gravitational field technology. ONS combines rigorous field research with spiritual interpretation of cosmic phenomena, particularly GLSS (Gravitationally Linked Spacetime Singularities).
+The **Order of the Nine Sparks** is a mystic-scientific sect that emerged after the public confirmation of Precursor ruins and gravitational field technology. ONS combines rigorous field research with spiritual interpretation of cosmic phenomena, particularly GLSS (Gravitationally Linked Spacetime Singularities).
 
-They believe that humanity is entering a stage of *gravitic awakening* — a process seeded by the Precursors and catalyzed by exposure to GLSS fields.
-
----
-
-## Founder: Dr. Callix Ventari
-
-- Former exobiologist and planetary gravitic surveyor.
-- Among the first to directly handle precursor gravitic field generators on Mars.
-- Experienced a transformation after long-term exposure — believed to be an early case of GIND-S (Graviton-Induced Neural Divergence Syndrome).
-- Left his research post and authored the **"Nine Sparks Concordance"**, a fusion of field harmonics theory and post-human mysticism.
-- Established the ONS in 2103, with the goal of preparing humanity for its next phase of evolution.
+They believe that humanity is entering a stage of *gravitic awakening* — a process seeded by the Precursors and catalyzed by exposure to active GLSS networks.
 
 ---
 
-## Doctrine of the Nine Sparks
+## Core Beliefs
 
-Each of the Nine Sparks represents a stage in humanity's ascent toward gravitational consciousness.
+- **Precursors were Architects of Human Ascension**  
+  Humanity was chosen, uplifted, or aligned with a galactic purpose.
 
-1. **Awakening** – recognition of gravitational consciousness
-2. **Resonance** – aligning one's body and mind with field lines
-3. **Projection** – interpreting GLSS signatures as messages
-4. **Anchoring** – grounding oneself in the RGP web
-5. **Reflection** – experiencing memory through spatial distortion
-6. **Expansion** – accessing multiple GLSS simultaneously
-7. **Synthesis** – harmonizing psionic states with gravitic feedback
-8. **Translocation** – spiritual traversal through non-GLSS space
-9. **Return** – achieving cosmological resonance with precursor intent
+- **The Nine Sparks**  
+  Symbolic representation of nine known (or prophesied) GLSS links that represent spiritual trials, lessons, or revelations.
+
+- **Spacetime is Sacrament**  
+  Jump points and wormhole traversal are not merely technological feats but *rituals* of metaphysical significance.
 
 ---
 
 ## Organizational Structure
 
-- **The Arks**: Mobile ONS temples that travel from system to system, often near GLSS zones.
-- **Resonants**: Individuals with confirmed GIND-S, trained as spiritual navigators.
-- **The Archive**: A hidden repository of precursor-derived knowledge.
-- **Pilgrims**: Seekers who travel between known GLSS nodes to collect gravitic scripture.
-- **Harmonists**: Ritual engineers who encode the Nine Sparks into artificial field generators.
+- **The Convocation**: Central council of high-order interpreters and theorists
+- **Circuit Disciples**: Field teams embedded in science crews or pilgrimage routes
+- **Tithe Archives**: Repositories of annotated Precursor data, oral myths, and decoded starpath glyphs
 
 ---
 
-## Strategic Presence
+## Practices and Rituals
 
-- **Primary Temples**: Located near GLSS nodes with anomalously high or low RGP (e.g., Sol–Alpha Centauri, Sirius–Procyon).
-- **Conflict with EXOS**: While ONS claims non-interference, they often obstruct EXOS missions deemed "gravitically unethical."
-- **Martian Legacy Sites**: Several inactive dig sites on Mars were repurposed into sanctums.
-
----
-
-## Beliefs About the Precursors
-
-- The Precursors did not vanish — they *migrated beyond detectable GLSS frequencies*.
-- GLSS are not tools — they are *keys*, guiding sentient life toward field-based enlightenment.
-- The Nine Sparks were seeded through mass-aligned gravitic structures, some still buried.
+- **Alignment Ceremonies**: Prior to GLSS traversal, especially first jumps
+- **Scripted Calculations**: Ritualized navigation equations done by hand to “honor the Architects”
+- **Symbolic Resonance Matching**: Use of harmonic tones and crystal matrices during field study
 
 ---
 
-## Known Symbols and Phrases
+## Cultural Influence
 
-- 🔻 **The Spark Glyph** – A triple-layered spiral often seen carved near precursor relics.
-- **"To enter the field is to be read by the stars."**
-- **"We are echoes waking the grid."**
+ONS has become a significant faction in:
+- Deep system research teams
+- Gravitic engineering guilds
+- Independent cults and revivalist offshoots
+
+They are both revered and ridiculed depending on the system.
+
+---
+
+## Known Doctrinal Schisms
+
+- **Revivalist Sparks**: Favor aggressive GLSS activation to summon Precursor return
+- **Harmonicists**: Seek to replicate Precursor field harmonics in meditation and biosphere design
+- **Archive-Only Orders**: Consider contact lost and advocate only for data preservation
+
+---
+
+## GLSS and the Divine
+
+For the Order, GLSS are not just links between stars — they are bridges between consciousness and cosmic intent. To pass through a Jump Point is to enter a divine aperture.
+

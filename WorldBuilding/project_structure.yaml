@@ -51,6 +51,6 @@ memory_blocks:
   - Canonical timeline split into: Orbital, Precursor, GLSS Eras
 
 backup_strategy:
-  archive_name: Worldbuilding_Project_Clean.zip
-  includes: all active .md files + real_data + scripts
+  archive_name: Worldbuilding_Archive.zip
+  includes: all new or changed .md files + real_data + scripts
   version_control: external optional (Git, manual ZIPs)

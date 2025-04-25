@@ -1,41 +1,33 @@
-# Session Reset Instructions — Worldbuilding Project
+<!-- run: reset_session -->
+<!-- requires: project_structure.yaml from GitHub -->
+
+# Session Reset Command — Worldbuilding Project
 
 ## Purpose
-Use this template to start a clean session without any bloated conversation history, while fully restoring the validated project state.
+Restore the project to a clean state by loading the latest `project_structure.yaml` from GitHub and ensuring all structure and memory blocks are correct.
 
 ---
 
-## Reset Template
+## Instructions
 
-Hello. Please load the following worldbuilding project from memory:
+1. **Load `project_structure.yaml`** from GitHub:
+   - URL: https://raw.githubusercontent.com/DouglasMarsh/project-indigo/refs/heads/main/WorldBuilding/project_structure.yaml
 
-- Use the **"Validation Complete" checkpoint**
-- Load `project_structure.yaml` as the structural reference and file is not available load it from https://github.com/DouglasMarsh/project-indigo/new/main/WorldBuilding
-- Confirm and restore memory blocks:
+2. **Parse Structure**
+   - Confirm all required folders and files exist
+   - Identify any missing or outdated content
 
-  - GLSS theoretical rules and Remote Gravitational Pull (RGP) model
-  - Discovery of Precursor ruins at Hygiea
-  - Gravitics developed from Tesla-LeSaut hybrid theory
-  - Climate collapse as the catalyst for orbital economic expansion
-  - UOWC labor movement and the Pallas Thermo Incident
-  - Cultural rise of Tech Cults and PMFs following industrial and ideological crisis
-  - Canonical timeline divided into: Orbital Era, Precursor Era, GLSS Era
+3. **Repair Missing Files**
+   - For any missing file, download from:
+     - Template URL: https://raw.githubusercontent.com/DouglasMarsh/project-indigo/refs/heads/main/WorldBuilding/<path_to_file>
 
-- Then **validate** that structure and memory are intact.
+4. **Reload Memory Blocks**
+   - GLSS theoretical rules
+   - Precursor ruins at Hygiea
+   - Tesla-LeSaut gravitic theory
+   - Climate collapse as orbital economic catalyst
+   - UOWC labor movement and Pallas Thermo incident
+   - Cults and PMFs emergence
+   - Timeline: Orbital, Precursor, GLSS Eras
 
----
-
-## Follow-up Commands
-
-After validation:
-- "Validate project" → Full memory and structure audit
-- "List active memory blocks" → Confirm loaded project concepts
-- "Continue development" → Begin expanding lore, timeline, tech, etc.
-
----
-
-## Notes
-- Always upload `project_structure.yaml` if available before starting
-- If restoring manually, refer to the Worldbuilding Project repository for structure and contents
-- Use the latest validated archive for full file recovery if needed
-
+5. **Ready for Development or Validation**

@@ -1,55 +1,69 @@
-# Project Structure Manifest (Persistent Memory Anchor)
-
 project_name: Worldbuilding
 version: 1.0
 load_always: true
-
 structure:
   core:
-    - CODEX.md
-    - project_guidelines.md
-    - README.md
+  - CODEX.md
+  - Cryohelion.md
+  - README.md
   factions:
-    - EXOS.md
-    - ONS.md
-    - UOWC.md
-    - Terra Prima.md
-    - PMFs.md
-    - Tech Cults.md
-    - _index.md
-    - overview.md
+  - _index.md
+  - overview.md
+  - EXOS.md
+  - ONS.md
+  - PMFs.md
+  - Tech Cults.md
+  - Terra Prima.md
+  - UOWC.md
+  fleet:
+  - _index.md
+  - overview.md
+  - doctrine.md
+  - weapons.md
+  - ships:
+    - battleship.md
+    - c2_ship.md
+    - ecm_ship.md
+    - flak_crusier.md
+    - missile_cruiser.md
+    - pd_frigate.md
   tech:
-    - Propulsion.md
-    - Weapons.md
-    - Defensive_Systems.md
-    - Gravitics.md
-    - _index.md
+  - _index.md
+  - Cryohelion_Systems.md
+  - Defensive_Systems.md
+  - Gravitics.md
+  - Propulsion.md
+  - Weapons.md
   timeline:
-    - Orbital_Era.md
-    - Precursor_Era.md
-    - GLSS_Era.md
-    - _index.md
-    - overview.md
+  - _index.md
+  - overview.md
+  - Orbital_Era.md
+  - Precursor_Era.md
+  - GLSS_Era.md
   narratives:
-    - red_silence.md
-    - residuals.md
+  - broken_stars.md
+  - red_silence.md
+  - residuals.md
+  - Historical_Archives:
+    - Battle_of_Kastra_Reach.md
   real_data:
-    - xhip_catalog.tsv
-    - luminous_objects_consolidated.csv
-  scripts:
-    - data/nearest_100_stars.csv
-    - data/simbad_enrichment.csv
-    - simbad_query_nearest_100.py
-
+    - xhip-9999.tsv
+  future:
+  - Gravitonic_Node_Overview.md
+  - Gravitonic_Node_Propulsion.md
+  - Gravitonic_Lance_Weapons.md
+  - Gravitonic_Munitions_Doctrine.md
+  - Synthetic_Seed_Economics.md
+  - Synthetic_Seed_Politics.md
+  - Synthetic_Seed_Security.md
 memory_blocks:
-  - GLSS theoretical rules and classifications
-  - Precursor ruins discovery at Hygiea
-  - Gravitics derived from Tesla-LeSaut hybrid theory
-  - Climate collapse as orbital economic catalyst
-  - UOWC labor movement and Pallas Thermo incident
-  - Cults and PMFs rise after industrial and ideological crisis
-  - Canonical timeline split into: Orbital, Precursor, GLSS Eras
-
+- GLSS theoretical rules and classifications
+- Precursor ruins discovery at Hygiea
+- Gravitics derived from Tesla-LeSaut hybrid theory
+- Climate collapse as orbital economic catalyst
+- UOWC labor movement and Pallas Thermo incident
+- Cults and PMFs rise after industrial and ideological crisis
+- Canonical timeline split into: Orbital, Precursor, GLSS Eras
 backup_strategy:
   archive_name: Worldbuilding_Archive.zip
   includes: all new or changed .md files + real_data + scripts

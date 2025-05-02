@@ -34,8 +34,7 @@ Files:
 ## Memory Block: Cryohelion material properties and containment systems
 Summary: Describes the origin of Cryohelion (natural and synthetic), its gravitic resonance, collapse potential, and required containment technologies.
 Files:
-- `core/Cryohelion.md`
-- `tech/Cryohelion_Systems.md`
+- `tech/cryohelion/*
 
 ## Memory Block: Precursor ruins discovery at Hygiea
 Summary: Documents the first confirmed human discovery of Precursor ruins; foundation for Cryohelion analysis.

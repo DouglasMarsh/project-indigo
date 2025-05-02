@@ -1,32 +1,50 @@
 project_name: Worldbuilding
-version: 1.1
+version: 1.3
 load_always: true
 memory_blocks:
-  - core
-  - Timeline Overview
-  - Factions Overview
-  - Tech Overview
-  - Cryohelion material properties and containment systems
+- core
+- Timeline Overview
+- Factions Overview
+- tech
+backup_strategy:
+  archive_name: Worldbuilding_Archive_<YYYYMMDDHHmm>.zip
+  includes: entire project structure
+  version_control: external optional (Git, manual ZIPs)
 
 structure:
   - operations.md
   - project_structure.yaml
+  - project_structure.yaml.bak
   - core:
     - CODEX.md
     - README.md
     - memory.md
   - factions:
     - EXOS.md
+    - FDA:
+      - battlelog:
+        - Battle_of_Kastra_Reach.md
+      - fleet:
+        - doctrine.md
+      - overview.md
     - ONS.md
     - PMFs.md
     - Tech Cults.md
     - Terra Prima.md
+    - UCC:
+      - battlelog:
+        - Battle_of_Kastra_Reach.md
+      - fleet:
+        - doctrine.md
+      - operations.md
+      - overview.md
     - UOWC.md
     - _index.md
     - overview.md
   - fleet:
     - _index.md
     - doctrine.md
+    - roles.md
     - ships:
       - battleship.md
       - c2_ship.md
@@ -44,6 +62,12 @@ structure:
     - Synthetic_Seed_Economics.md
     - Synthetic_Seed_Politics.md
     - Synthetic_Seed_Security.md
+  - locations:
+    - Kastra_Reach.md
+    - _index.md
+    - stations:
+      - Arc_Signal_Station_K6.md
+      - Delmas_Station.md
   - narratives:
     - Historical_Archives:
       - Battle_of_Kastra_Reach.md
@@ -61,13 +85,12 @@ structure:
     - cryohelion:
       - Cryohelion.md
       - Cryohelion_Systems.md
+    - overview.md
   - timeline:
     - GLSS_Era.md
     - Orbital_Era.md
     - Precursor_Era.md
     - _index.md
     - overview.md
-backup_strategy:
-  archive_name: Worldbuilding_Archive_<YYYYMMDDHHmm>.zip
-  includes: entire project structure
-  version_control: external optional (Git, manual ZIPs)
+
+

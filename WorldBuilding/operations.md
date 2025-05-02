@@ -2,6 +2,8 @@
 
 This document governs session lifecycle, memory behavior, structural validation, and archival procedures for the WorldBuilding project.
 
+**Prefer the version of `operations.md` uploaded to the project over the one in the archive file**
+
 ---
 
 ## 1. Session Control
@@ -11,28 +13,30 @@ This document governs session lifecycle, memory behavior, structural validation,
 * **Load and extract archive:**
 
   * Locate the latest `WorldBuilding*.zip` file in `/mnt/data/`
-  * If multiple are present, prompt the user to select which archive to use
-  * Extract the archive into a working project directory
+  * If multiple are present, list the available archive by name and prompt the user to select which archive to use
+  * Extract the archive into the working project directory
   * ✅ **Confirm that files were written to disk**
 
-    * Must verify that `project_structure.yaml` and at least one module file exist physically on disk
-    * ❌ If no files are extracted, abort and report extraction failure
+    * Must verify that `project_structure.yaml` and all files from archive exist **physically on disk**
+    * ❌ If files are **not** extracted, abort and report extraction failure
 
-* **Load `project_structure.yaml`** from the extracted directory:
+* **Load `project_structure.yaml`** from working project directory
 
-  * If missing, prompt to retrieve from GitHub:
-    [https://raw.githubusercontent.com/DouglasMarsh/project-indigo/refs/heads/main/WorldBuilding/project\_structure.yaml](https://raw.githubusercontent.com/DouglasMarsh/project-indigo/refs/heads/main/WorldBuilding/project_structure.yaml)
-  * Save it to the project root
-  * Prompt user to Rerun `[start session]`
+* **Validate structure and initialize session:**
 
-* **Automatically Run `[load project]` to initialize structure and memory:**
+  * Automatically Run `[validate]` to confirm all files exist and contain actual content
+  * Load all memory blocks listed in `project_structure.yaml`
+  * Sync `core/memory.md` if required
+
+> This command assumes a valid extracted archive or restored baseline.
+> It activates a session in sync with disk, structure, and memory integrity.
 
 > **Note:** Archive extraction and file presence verification are required.
 > The session is not valid unless real files are present on disk and memory is in sync with the structure.
 
 ---
 
-### \[session reset]
+### \[reset session]
 
 * Clears all currently active memory blocks.
 * **Compress chat history**: wipes session context and memory, simulating a fresh start.
@@ -40,31 +44,20 @@ This document governs session lifecycle, memory behavior, structural validation,
 
 ---
 
-### \[load project]
+### \[start session from github]
 
-* **Verify presence of `project_structure.yaml`:**
+* **Prompt user to read project files from github**
+* **Fetch `project_structure.yaml`** from github:
 
-  * If missing, notify the user and stop.
-  * Optionally prompt to restore it from GitHub:
-    [https://raw.githubusercontent.com/DouglasMarsh/project-indigo/refs/heads/main/WorldBuilding/project\_structure.yaml](https://raw.githubusercontent.com/DouglasMarsh/project-indigo/refs/heads/main/WorldBuilding/project_structure.yaml)
-  * Save it to the project root and re-run `[start session]`
+  * Use websearch to read `project_structure.yaml` from url [https://raw.githubusercontent.com/DouglasMarsh/project-indigo/refs/heads/main/WorldBuilding/project\_structure.yaml](https://raw.githubusercontent.com/DouglasMarsh/project-indigo/refs/heads/main/WorldBuilding/project_structure.yaml)
+  * Write file to root of the working project directory
 
-* **Locate and extract working archive:**
-
-  * Look for the latest `WorldBuilding*.zip` archive in `/mnt/data/`
-  * If multiple archives exist, prompt the user to select one
-  * ❌ If no archive is found:
-
-    * Prompt the user to allow GitHub restore of key project files
-    * Use this URL template to pull files as needed:
+* **Load `project_structure.yaml`** from working project directory:
+  
+  * Use `structure` node to retrieve project files from github:
+    * Use this URL template to pull files:
       `https://raw.githubusercontent.com/DouglasMarsh/project-indigo/refs/heads/main/WorldBuilding/<path>`
-    * Reconstruct basic project structure from GitHub as fallback
-  * ✅ If archive found:
-
-    * Extract it and verify disk presence of:
-
-      * `project_structure.yaml`
-      * At least one key file from structure (e.g., `core/README.md`)
+    * Write file to the appropriate path in the working project directory
 
 * **Validate structure and initialize session:**
 
@@ -73,10 +66,10 @@ This document governs session lifecycle, memory behavior, structural validation,
   * Sync `core/memory.md` if required
 
 
-> This command assumes a valid extracted archive or restored baseline.
-> It activates a session in sync with disk, structure, and memory integrity.
-
+> **Note:** File presence verification is required.
+> The session is not valid unless real files are present on disk and memory is in sync with the structure.
 ---
+
 
 ### \[load memory <block name>]
 
@@ -95,8 +88,8 @@ This document governs session lifecycle, memory behavior, structural validation,
 ### \[validate]
 
 * **Perform actions exactly as they are stated.**
-* Runs a full structural and memory integrity check.
-* Verifies that all required files and folders exist and contain updated content.
+* Run a full structural and memory integrity check.
+* Verifies that all required files and folders exist and contain **NON-PLACEHOLDER** content.
   **IF THE FILE CONTAINS PLACEHOLDER CONTENT IT IS NOT VALID**
 * Ensures `memory_blocks` in `project_structure.yaml` match known memory.
 * **Does not create an archive.**

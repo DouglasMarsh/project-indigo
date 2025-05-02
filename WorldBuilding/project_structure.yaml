@@ -44,6 +44,7 @@ structure:
   - fleet:
     - _index.md
     - doctrine.md
+    - fleet_roles.md
     - roles.md
     - ships:
       - battleship.md
@@ -92,5 +93,3 @@ structure:
     - Precursor_Era.md
     - _index.md
     - overview.md
-
-
